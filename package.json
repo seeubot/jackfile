@@ -1,0 +1,21 @@
+{
+  "name": "content-protection-api",
+  "version": "1.0.0",
+  "description": "OTT Content Protection System API",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {
+    "ip-range-check": "^0.2.0",
+    "lodash": "^4.17.21",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^28.15.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
